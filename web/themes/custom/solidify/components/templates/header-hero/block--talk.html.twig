@@ -32,18 +32,18 @@
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-  <div class="cta-container">
-    <div class="cta-container__image">
-      {{ content.field_cta_image.0 }}
-    </div>
-    <div class="cta-content">
-      <p class="cta-content__title">
+    <div class="cta-container">
+      <div class="cta-container__image">
+        {{ content.field_cta_image.0 }}
+      </div>
+      <div class="cta-container-content">
+        <p class="cta-container-content__title"></p>
         {{ content.field_cta_title.0['#context'].value }}
-      </p>
-      <p class="cta-content__desc">
-        {{ content.field_cta_desc.0['#context'].value }}
-      </p>
+        </p>
+        <p class="cta-container-content__desc"></p>
+          {{ content.field_cta_desc.0['#context'].value }}
+        </p>
+      </div>
     </div>
-  </div>
   {% endblock %}
 </div>

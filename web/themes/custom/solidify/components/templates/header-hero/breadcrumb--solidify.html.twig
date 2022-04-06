@@ -12,7 +12,7 @@
     <h2 id="system-breadcrumb" class="visually-hidden">{{ 'Breadcrumb'|t }}</h2>
     <ol class="breadcrumb-container">
     {% for item in breadcrumb %}
-      <li class="breadcrumb-list-item">
+      <li class="breadcrumb-container__list-item">
         {% if item.url %}
           <a href="{{ item.url }}">{{ item.text }}</a>
         {% else %}
