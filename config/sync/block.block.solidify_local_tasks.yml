@@ -1,6 +1,6 @@
 uuid: 20d2d1cd-f814-4cf4-acd8-9aa3cc446fa0
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - solidify
@@ -9,7 +9,7 @@ _core:
 id: solidify_local_tasks
 theme: solidify
 region: content
-weight: -40
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

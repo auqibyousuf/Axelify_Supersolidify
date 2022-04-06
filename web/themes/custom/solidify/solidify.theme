@@ -4,3 +4,7 @@
  * @file
  * Functions to support theming in the solidify theme.
  */
+
+function solidify_theme_suggestions_breadcrumb_alter(array &$suggestions, array $variables) {
+  $suggestions[] = "breadcrumb__solidify";
+}

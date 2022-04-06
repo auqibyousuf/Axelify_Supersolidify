@@ -1,0 +1,8 @@
+uuid: ddd8067e-dbee-4149-903b-f535d6d86ef8
+langcode: en
+status: true
+dependencies: {  }
+id: hero_text
+label: 'Hero Text'
+revision: 0
+description: ''

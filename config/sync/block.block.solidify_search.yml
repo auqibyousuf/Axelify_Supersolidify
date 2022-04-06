@@ -1,6 +1,6 @@
 uuid: 4f12de68-3941-43a7-8616-1769448f7f34
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: solidify_search
 theme: solidify
 region: header
-weight: -1
+weight: 0
 provider: null
 plugin: search_form_block
 settings:

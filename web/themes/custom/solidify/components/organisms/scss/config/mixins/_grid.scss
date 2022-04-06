@@ -1,0 +1,7 @@
+// Define Width utility classes here
+
+@mixin container-boxed {
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}

@@ -1,6 +1,6 @@
 uuid: 5bf500c5-1361-47b6-8edf-97afdea2f5fa
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: solidify_content
 theme: solidify
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: system_main_block
 settings:

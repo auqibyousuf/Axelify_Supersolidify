@@ -1,0 +1,42 @@
+uuid: 4b342efd-83fb-4869-8085-b6185b0b2afc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.talk_to_us
+    - field.field.block_content.talk_to_us.field_cta_desc
+    - field.field.block_content.talk_to_us.field_cta_image
+    - field.field.block_content.talk_to_us.field_cta_title
+  module:
+    - image
+id: block_content.talk_to_us.default
+targetEntityType: block_content
+bundle: talk_to_us
+mode: default
+content:
+  field_cta_desc:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_cta_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_cta_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

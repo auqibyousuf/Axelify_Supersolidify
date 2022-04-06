@@ -1,6 +1,6 @@
 uuid: 101e50b7-a847-4a84-8478-384f878a7ad3
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: solidify_messages
 theme: solidify
 region: header
-weight: 0
+weight: 2
 provider: null
 plugin: system_messages_block
 settings:

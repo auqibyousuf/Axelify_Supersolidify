@@ -1,6 +1,6 @@
 uuid: 742ed3c9-a07c-4610-afe8-2306269dbf64
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - solidify
@@ -9,7 +9,7 @@ _core:
 id: solidify_local_actions
 theme: solidify
 region: content
-weight: -20
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:
