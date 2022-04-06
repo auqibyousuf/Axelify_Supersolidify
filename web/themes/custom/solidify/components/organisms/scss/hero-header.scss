@@ -17,6 +17,9 @@
   align-items: center;
 }
 .menu-container {
+  .is-active {
+    color: #ff5a30 !important;
+  }
   display: flex;
   margin-left: 50px;
   li {
@@ -28,9 +31,6 @@
       font-weight: 700;
       &:hover {
         color: #ff5a30;
-      }
-      .is-active {
-        color: red !important;
       }
     }
   }
