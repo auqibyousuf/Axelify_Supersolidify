@@ -11,12 +11,16 @@
 }
 
 @mixin text-black {
-  color: #1e212c;
+  color: var(--c-text-black);
 }
 @mixin text-grey {
-  color: #424551;
+  color: var(--c-text-gray);
 }
 
 @mixin text-grey-50 {
-  color: #787a80;
+  color: var(--c-text-gray-50);
+}
+
+@mixin text-gray-light {
+  color: var(--c-text-gray-light);
 }
