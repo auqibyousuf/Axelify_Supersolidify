@@ -1,0 +1,19 @@
+uuid: ab811587-0caa-4917-8983-e453ad917e20
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_text
+    - field.storage.block_content.field_hero_heading
+id: block_content.hero_text.field_hero_heading
+field_name: field_hero_heading
+entity_type: block_content
+bundle: hero_text
+label: 'hero heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

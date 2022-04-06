@@ -1,0 +1,25 @@
+uuid: 605c8bc2-60c4-442d-b773-2231420b8434
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:talk_to_us:d5e087cd-274a-4ebc-b1d1-8c2d91f65a91'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: callus
+theme: solidify
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:d5e087cd-274a-4ebc-b1d1-8c2d91f65a91'
+settings:
+  id: 'block_content:d5e087cd-274a-4ebc-b1d1-8c2d91f65a91'
+  label: 'Call us'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,6 +1,6 @@
 uuid: 9af732b6-b7ad-4401-b700-eba65b5e0094
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
 id: solidify_breadcrumbs
 theme: solidify
-region: header
-weight: 0
+region: content
+weight: -2
 provider: null
 plugin: system_breadcrumb_block
 settings:
@@ -19,4 +19,8 @@ settings:
   label: Breadcrumbs
   label_display: '0'
   provider: system
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news

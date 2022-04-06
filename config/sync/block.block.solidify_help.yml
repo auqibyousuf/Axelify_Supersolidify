@@ -1,6 +1,6 @@
 uuid: 2fbb8bc0-cff7-4b0a-aae8-dd33e9af9170
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: solidify_help
 theme: solidify
 region: content
-weight: -30
+weight: -5
 provider: null
 plugin: help_block
 settings:

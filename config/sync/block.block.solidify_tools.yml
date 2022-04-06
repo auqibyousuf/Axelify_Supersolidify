@@ -1,6 +1,6 @@
 uuid: 7bb77de4-5d3e-4270-a517-e798401f3435
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,7 +13,7 @@ _core:
 id: solidify_tools
 theme: solidify
 region: header
-weight: 0
+weight: 3
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

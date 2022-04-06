@@ -1,0 +1,26 @@
+// Text utilities
+
+@mixin text {
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+@mixin text-bold {
+  @include text();
+  font-weight: 700;
+}
+
+@mixin text-black {
+  color: var(--c-text-black);
+}
+@mixin text-grey {
+  color: var(--c-text-gray);
+}
+
+@mixin text-grey-50 {
+  color: var(--c-text-gray-50);
+}
+
+@mixin text-gray-light {
+  color: var(--c-text-gray-light);
+}

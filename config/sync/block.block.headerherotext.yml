@@ -1,0 +1,25 @@
+uuid: e4eb72eb-9411-43e3-9c14-f0b2c37d3de8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_text:b5f5495d-691d-44e7-b010-7c7b26f0cf23'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: headerherotext
+theme: solidify
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:b5f5495d-691d-44e7-b010-7c7b26f0cf23'
+settings:
+  id: 'block_content:b5f5495d-691d-44e7-b010-7c7b26f0cf23'
+  label: 'Header Hero Text'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

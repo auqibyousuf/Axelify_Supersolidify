@@ -1,0 +1,25 @@
+uuid: 879dff17-75ba-4a75-8c99-68ae77c2261e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:talk_to_us:ca66ca57-e490-4d60-b5cf-3c8440f5aab0'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: talk
+theme: solidify
+region: header
+weight: -3
+provider: null
+plugin: 'block_content:ca66ca57-e490-4d60-b5cf-3c8440f5aab0'
+settings:
+  id: 'block_content:ca66ca57-e490-4d60-b5cf-3c8440f5aab0'
+  label: Talk
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
