@@ -193,8 +193,8 @@ display:
           exposed: true
           expose:
             operator_id: field_tags_target_id_op
-            label: Tags
-            description: 'List of News'
+            label: ''
+            description: ''
             use_operator: false
             operator: field_tags_target_id_op
             operator_limit_selection: false

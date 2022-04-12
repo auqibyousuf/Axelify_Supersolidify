@@ -4,6 +4,7 @@ global:
       dist/components/global.css: {}
       dist/components/organisms/scss/hero-header.css: {}
       dist/components/organisms/scss/news-list.css: {}
+      dist/components/organisms/scss/discuss-form.css: {}
   js:
     dist/components/main.js:
       attributes:

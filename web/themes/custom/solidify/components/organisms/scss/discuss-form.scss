@@ -1,0 +1,71 @@
+@import 'config/global.scss';
+
+.discuss-form-container {
+  label {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+  }
+  ::placeholder {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--c-text-gray-light);
+    padding: 10px;
+  }
+  input:not([type='checkbox'], [type='submit']),
+  textarea {
+    @include input;
+    margin-top: 10px;
+  }
+  textarea {
+    height: 60px;
+    resize: none;
+    margin-top: 10px;
+  }
+  .form-submit {
+    width: 174px;
+    height: 44px;
+    background: var(--c-text-primary);
+    border-radius: 4px;
+    color: var(--c-text-white);
+    border: none;
+    text-transform: capitalize;
+    margin: 0 auto;
+  }
+}
+
+.webform-container__discuss-form {
+  position: absolute;
+  right: 345px;
+  background: var(--c-text-white);
+  border: 1px solid var(--c-discuss-background);
+  box-sizing: border-box;
+  box-shadow: 0px 80px 80px -20px var(--c-text-shadow-gray),
+    0px 30px 24px -10px var(--c-text-gray-light-shadow),
+    0px 12px 10px -6px var(--c-text-shadow-gray-light),
+    0px 4px 4px -4px var(--c-text-shadow-gray-light-2);
+  border-radius: 4px;
+  width: 495px;
+  padding: 40px;
+  h2 {
+    padding-bottom: 30px;
+  }
+}
+
+.webform-container {
+  background-image: url('/themes/custom/solidify/images/discuss-bg.png');
+  height: 826px;
+  padding: 80px;
+  margin-top: 200px;
+}
+
+.form-wrapper {
+  display: flex;
+  label {
+    width: 387px;
+    margin-bottom: 25px;
+  }
+}
+.form-checkbox {
+  margin-right: 10px;
+}
