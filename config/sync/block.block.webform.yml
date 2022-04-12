@@ -1,0 +1,25 @@
+uuid: d7b0c108-50bd-4134-8d11-868085b8ad9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.discuss
+  module:
+    - webform
+  theme:
+    - solidify
+id: webform
+theme: solidify
+region: content
+weight: -6
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'A quick way to discuss details'
+  label_display: visible
+  provider: webform
+  webform_id: discuss
+  default_data: ''
+  redirect: false
+visibility: {  }

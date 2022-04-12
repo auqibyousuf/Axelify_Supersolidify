@@ -1,0 +1,9 @@
+@mixin input {
+  background: var(--c-input-background);
+  border: 1px solid var(--c-border-input);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 415px;
+  height: 44px;
+  margin-bottom: 20px;
+}
