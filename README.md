@@ -10,7 +10,7 @@ Download the dependencies
   - `ddev composer install`
 
 Import the Database
-  - `ddev drush sqlc < db/solidify-db.sql`
+  - `ddev drush sqlc < PATH-to-DB-file`
 
 Import the Configurations
   - `ddev drush cim`
