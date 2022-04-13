@@ -1,0 +1,8 @@
+uuid: 364ef641-6efa-4331-a10b-e8221ba36bfa
+langcode: en
+status: true
+dependencies: {  }
+id: menu_links
+label: 'Footer Links'
+revision: 0
+description: ''

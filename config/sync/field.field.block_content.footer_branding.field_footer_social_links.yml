@@ -1,0 +1,31 @@
+uuid: f69b616c-cd69-49ed-8f0b-8fc87a3bad06
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_branding
+    - field.storage.block_content.field_footer_social_links
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - entity_reference_revisions
+id: block_content.footer_branding.field_footer_social_links
+field_name: field_footer_social_links
+entity_type: block_content
+bundle: footer_branding
+label: 'Footer Social Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      social_links: social_links
+    negate: 0
+    target_bundles_drag_drop:
+      social_links:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

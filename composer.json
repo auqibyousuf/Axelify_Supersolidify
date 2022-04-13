@@ -28,6 +28,7 @@
         "drupal/devel": "^4.1",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/jquery_ui_touch_punch": "^1.0",
+        "drupal/paragraphs": "^1.13",
         "drupal/twig_field_value": "^2.0",
         "drupal/twig_tweak": "^3.1",
         "drupal/webform": "^6.1",

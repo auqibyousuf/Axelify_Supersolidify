@@ -1,0 +1,32 @@
+uuid: 17032a0c-9fe7-477c-bb3c-368636eb86c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.let_s_stay_in_touch
+    - field.field.block_content.let_s_stay_in_touch.field_helper
+    - field.field.block_content.let_s_stay_in_touch.field_subscribe
+  module:
+    - webform
+id: block_content.let_s_stay_in_touch.default
+targetEntityType: block_content
+bundle: let_s_stay_in_touch
+mode: default
+content:
+  field_helper:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_subscribe:
+    type: webform_entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

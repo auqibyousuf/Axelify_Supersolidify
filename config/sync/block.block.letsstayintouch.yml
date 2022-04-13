@@ -1,0 +1,25 @@
+uuid: 361d60c2-32dc-4737-8e8c-eb40abb0a289
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:let_s_stay_in_touch:87719678-d480-4027-8b0a-8b174817c2da'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: letsstayintouch
+theme: solidify
+region: footer
+weight: -10
+provider: null
+plugin: 'block_content:87719678-d480-4027-8b0a-8b174817c2da'
+settings:
+  id: 'block_content:87719678-d480-4027-8b0a-8b174817c2da'
+  label: 'Let’s stay in touch'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

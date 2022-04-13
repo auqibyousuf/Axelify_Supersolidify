@@ -1,0 +1,32 @@
+uuid: 36be4965-d8a6-47b8-979e-11de3614c37d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.let_s_stay_in_touch
+    - field.storage.block_content.field_subscribe
+    - webform.webform.subscribe
+  module:
+    - webform
+id: block_content.let_s_stay_in_touch.field_subscribe
+field_name: field_subscribe
+entity_type: block_content
+bundle: let_s_stay_in_touch
+label: Subscribe
+description: '*Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.'
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 51faf60c-0658-4d6d-8079-08450d37e423
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

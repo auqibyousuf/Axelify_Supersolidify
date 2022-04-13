@@ -1,0 +1,25 @@
+uuid: e561f8c3-e908-44b0-bfd4-60097aed3bf2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:company_info:a5e28549-5477-41e5-8f55-0e611b45616d'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: headoffice
+theme: solidify
+region: footer
+weight: -9
+provider: null
+plugin: 'block_content:a5e28549-5477-41e5-8f55-0e611b45616d'
+settings:
+  id: 'block_content:a5e28549-5477-41e5-8f55-0e611b45616d'
+  label: 'HEAD OFFICE'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

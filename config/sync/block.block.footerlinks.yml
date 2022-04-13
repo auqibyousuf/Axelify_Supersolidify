@@ -1,0 +1,25 @@
+uuid: 51e76241-3de9-4f4a-a682-850784787eae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_links:afdc5a9e-0574-4050-a546-817ae7c36208'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: footerlinks
+theme: solidify
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:afdc5a9e-0574-4050-a546-817ae7c36208'
+settings:
+  id: 'block_content:afdc5a9e-0574-4050-a546-817ae7c36208'
+  label: 'WHO WE ARE'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
