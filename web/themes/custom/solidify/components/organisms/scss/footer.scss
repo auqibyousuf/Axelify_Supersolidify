@@ -37,10 +37,15 @@
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 25px;
+  margin-left: 80px;
 }
 
+.subscribe-form-container {
+  position: relative;
+}
 .subscribe-section {
-  padding-right: 80px;
+  // position: relative;
+  padding-left: 80px;
   ::placeholder {
     padding: 16px;
   }
@@ -60,7 +65,7 @@
     width: 131px;
     border-radius: 0px 4px 4px 0px;
     top: 0;
-    right: 0;
+    right: 0px;
     border: none;
   }
   p {
@@ -75,8 +80,8 @@
 .footer-container__menu-section {
   display: flex;
   margin-top: 50px;
-  padding-left: 80px;
-  width: 70%;
+  padding-left: 50px;
+  width: 76%;
   justify-content: space-evenly;
 }
 
