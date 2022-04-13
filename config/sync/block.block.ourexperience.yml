@@ -1,0 +1,25 @@
+uuid: ba0975d8-9aa6-4bbd-a964-a4723a3b6fe7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_links:74cec570-5c72-4f9e-b5e7-d337b90ea5da'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: ourexperience
+theme: solidify
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:74cec570-5c72-4f9e-b5e7-d337b90ea5da'
+settings:
+  id: 'block_content:74cec570-5c72-4f9e-b5e7-d337b90ea5da'
+  label: 'OUR EXPERIENCE'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

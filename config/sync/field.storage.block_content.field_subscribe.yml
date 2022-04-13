@@ -1,0 +1,20 @@
+uuid: 894d7c1a-ee6d-40d5-9a0f-48395853ef8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - webform
+id: block_content.field_subscribe
+field_name: field_subscribe
+entity_type: block_content
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

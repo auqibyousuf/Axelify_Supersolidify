@@ -1,0 +1,25 @@
+uuid: cfc82ffc-b378-494e-b800-b4f04539568b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:copyright:1416625f-0283-4f15-94c6-fd1f52df408d'
+  module:
+    - block_content
+  theme:
+    - solidify
+id: copyright
+theme: solidify
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:1416625f-0283-4f15-94c6-fd1f52df408d'
+settings:
+  id: 'block_content:1416625f-0283-4f15-94c6-fd1f52df408d'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
