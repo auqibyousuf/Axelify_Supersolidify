@@ -91,8 +91,21 @@
 
   {% if page.footer %}
     <footer role="contentinfo">
-      {{ page.footer }}
+      <div class="footer-container">
+        <div class="footer-container__logo-webform-section">
+          {{ page.footer.footerbranding }}
+          {{ page.footer.letsstayintouch }}
+        </div>
+        <div class="footer-container__menu-section">
+          {{ page.footer.headoffice }}
+          {{ page.footer.footerlinks }}
+          {{ page.footer.ourexperience }}
+        </div>
+        <div class="footer-container__copyright">
+          {{ page.footer.copyright }}
+        </div>
+      </div>
+    {{ page.footer|without('footerbranding', 'letsstayintouch', 'headoffice', 'footerlinks', 'ourexperience', 'copyright') }}
     </footer>
   {% endif %}
-
 </div>{# /.layout-container #}

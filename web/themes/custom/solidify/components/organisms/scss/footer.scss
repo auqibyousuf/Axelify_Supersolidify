@@ -1,0 +1,126 @@
+@import 'config/global.scss';
+
+.footer-container {
+  background: var(--c-footer-bg);
+  padding: 80px;
+  color: var(--c-text-white);
+}
+.footer-branding-container__logo-with-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.footer-links-container {
+  display: flex;
+}
+
+.footer-social-links {
+  margin-right: 20px;
+  margin-bottom: 26px;
+}
+.footer-branding-container__desc {
+  p {
+    width: 493px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    opacity: 0.6;
+  }
+}
+
+.footer-container__logo-webform-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-heading {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+
+.subscribe-section {
+  padding-right: 80px;
+  ::placeholder {
+    padding: 16px;
+  }
+  .form-email {
+    background: var(--c-f-input-bg);
+    border: 1px solid var(--c-f-input-shadow);
+    border-radius: 4px;
+    width: 495px;
+    height: 44px;
+    position: relative;
+  }
+  .form-submit {
+    background: var(--c-text-primary);
+    position: absolute;
+    padding: 0px 32px;
+    height: 44px;
+    width: 131px;
+    border-radius: 0px 4px 4px 0px;
+    top: 0;
+    right: 0;
+    border: none;
+  }
+  p {
+    font-size: 12px;
+    line-height: 18px;
+    width: 495px;
+    margin-top: 16px;
+    opacity: 0.6;
+  }
+}
+
+.footer-container__menu-section {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 80px;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.info-label {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+.company-info__address,
+.company-info__call,
+.company-info__email {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-right: 5px;
+  p {
+    opacity: 0.6;
+    &:before {
+      content: ':';
+      margin-right: 2px;
+      color: var(--c-text-white);
+      opacity: 1;
+    }
+  }
+}
+
+.footer-menu-links {
+  a {
+    @include link-clear;
+    margin-bottom: 5px;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--c-text-white);
+    display: block;
+  }
+}
+
+.footer-container__copyright {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 80px;
+  margin-top: 60px;
+}
