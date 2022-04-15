@@ -46,17 +46,17 @@
 <div class="layout-container">
 
   <header role="banner">
-  <div class="header">
-    <div class="column-left">
-      {{ page.header.solidify_branding }}
-      {{ page.header.solidify_main_menu }}
+    <div class="header">
+      <div class="column-left">
+        {{ page.header.solidify_branding }}
+        {{ page.header.solidify_main_menu }}
+      </div>
+      <div class="column-right">
+        {{ page.header.callus }}
+        {{ page.header.talk }}
+      </div>
     </div>
-    <div class="column-right">
-      {{ page.header.callus }}
-      {{ page.header.talk }}
-    </div>
-  </div>
-  {{ page.header|without("solidify_branding", "solidify_main_menu", "callus", "talk") }}
+    {{ page.header|without("solidify_branding", "solidify_main_menu", "callus", "talk") }}
   </header>
 
   {{ page.primary_menu }}
@@ -107,8 +107,7 @@
           {{ page.footer.ourexperience }}
         </div>
       </div>
-
-    {{ page.footer|without('footerbranding', 'letsstayintouch', 'headoffice', 'footerlinks', 'ourexperience', 'copyright') }}
+      {{ page.footer|without('footerbranding', 'letsstayintouch', 'headoffice', 'footerlinks', 'ourexperience', 'copyright') }}
     </footer>
   {% endif %}
 </div>{# /.layout-container #}
