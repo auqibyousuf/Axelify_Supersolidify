@@ -25,4 +25,8 @@
  * @see template_preprocess_block()
  */
 #}
-{% include "block--footerlinks.html.twig" %}
+{% embed "block--footerlinks.html.twig" %}
+  {% block head %}
+    <div{{ attributes.addClass("footer-menu-exp") }}>
+  {% endblock %}
+{% endembed %}

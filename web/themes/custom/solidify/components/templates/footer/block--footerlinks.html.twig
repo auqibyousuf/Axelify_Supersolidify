@@ -25,7 +25,7 @@
  * @see template_preprocess_block()
  */
 #}
-<div{{ attributes }}>
+{% block head %} <div{{ attributes.addClass("footer-container__menu") }}> {% endblock %}
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes.addClass('info-label') }}>{{ label }}</h2>
