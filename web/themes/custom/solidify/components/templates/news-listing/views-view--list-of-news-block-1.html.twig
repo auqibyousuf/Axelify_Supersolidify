@@ -42,7 +42,9 @@
       {{ header }}
     </header>
   {% endif %}
+  <div class="exposed-container">
   {{ exposed }}
+</div>
   {% if rows -%}
     <div class="news-section">
       {{ rows }}
@@ -53,4 +55,5 @@
   <div class="news-pager">
     {{ pager }}
   </div>
+</div>
 </div>
