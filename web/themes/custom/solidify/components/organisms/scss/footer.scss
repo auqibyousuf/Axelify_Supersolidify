@@ -7,7 +7,8 @@ footer {
 }
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  @include container-boxed;
 }
 .footer-branding-container__logo-with-links {
   display: flex;
@@ -36,7 +37,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 400px;
+  height: 25rem;
+  width: 20%;
 }
 
 .footer-container__middle-section {
@@ -85,7 +87,7 @@ footer {
 
 .footer-container__right-section {
   display: flex;
-  height: 310px;
+  height: 19.375rem;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -119,7 +121,7 @@ footer {
 .footer-container__menu {
   display: flex;
   justify-content: flex-end;
-  height: 310px;
+  height: 19.375rem;
   flex-direction: column;
 }
 .footer-menu-links {
@@ -136,4 +138,7 @@ footer {
 
 .footer-container__copyright {
   margin-top: 3.75rem;
+  p {
+    width: max-content;
+  }
 }

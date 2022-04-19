@@ -32,7 +32,9 @@
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    {{ content.field_hero_bg }}
+    <div class="hero-background">
+      {{ content.field_hero_bg }}
+    </div>
     <div class="hero-container">
       {{ drupal_breadcrumb() }}
       <p class="hero-container__heading">

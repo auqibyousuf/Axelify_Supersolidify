@@ -2,27 +2,23 @@
 
 .news-list-container {
   width: 600px;
-  height: 550px;
+  height: 510px;
   background: var(--c-text-white);
   box-shadow: 0px 80px 80px -20px var(--c-text-shadow-gray),
     0px 30px 24px -10px var(--c-text-gray-light-shadow),
     0px 12px 10px -6px var(--c-text-shadow-gray-light),
     0px 4px 4px -4px var(--c-text-shadow-gray-light-2);
   border-radius: 4px;
+  margin-bottom: 60px;
 }
 
 .news-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1440px;
-  margin: 0 auto;
+  justify-content: space-between;
+  @include container-boxed;
 }
 
-.news-list-container {
-  margin-right: 40px;
-  margin-bottom: 60px;
-}
 .news-list-container__image {
   img {
     width: 600px;
@@ -90,30 +86,25 @@
 }
 
 .exposed-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 70px;
-  padding: 30px;
+  @include container-boxed;
+  margin-top: 50px;
+  margin-bottom: 50px;
   .bef-link--selected {
     border: 1px solid var(--c-text-primary);
     color: var(--c-text-primary);
+    font-weight: 700;
   }
-  @include container-boxed;
-  padding-top: 50px;
-  padding-bottom: 70px;
   ul {
     display: flex;
-    li {
-      margin-right: 28px;
-    }
+    justify-content: space-between;
   }
   a {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--c-text-gray-light);
-    padding: 10px 50px;
+    padding: 10px 40px;
     border-radius: 4px;
     text-align: center;
+
     &:hover {
       border: 1px solid var(--c-text-primary);
     }
