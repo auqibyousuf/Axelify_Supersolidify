@@ -35,8 +35,7 @@
 }
 
 .webform-container__discuss-form {
-  position: absolute;
-  right: 345px;
+  float: right;
   background: var(--c-text-white);
   border: 1px solid var(--c-discuss-background);
   box-sizing: border-box;
@@ -50,6 +49,10 @@
   h2 {
     padding-bottom: 30px;
   }
+}
+
+.container {
+  @include container-boxed;
 }
 
 .webform-container {
