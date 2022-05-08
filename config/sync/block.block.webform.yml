@@ -11,7 +11,7 @@ dependencies:
 id: webform
 theme: solidify
 region: content
-weight: -8
+weight: -6
 provider: null
 plugin: webform_block
 settings:

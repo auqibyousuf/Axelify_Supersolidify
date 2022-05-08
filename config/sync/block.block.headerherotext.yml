@@ -11,7 +11,7 @@ dependencies:
 id: headerherotext
 theme: solidify
 region: content
-weight: -11
+weight: -8
 provider: null
 plugin: 'block_content:b5f5495d-691d-44e7-b010-7c7b26f0cf23'
 settings:
