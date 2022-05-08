@@ -92,22 +92,22 @@
   {% if page.footer %}
     <footer role="contentinfo">
       <div class="footer-container">
-        <div class="footer-container__left-section">
+        <div class="footer-container__logo-webform-section">
           {{ page.footer.footerbranding }}
-          <div class="footer-container__middle-section">
-            {{ page.footer.headoffice }}
-            <div class="footer-container__copyright">
-              {{ page.footer.copyright }}
-            </div>
+          {{ page.footer.letsstayintouch }}
+        </div>
+      <div class="company-middle">
+      <div class="head">
+      {{ page.footer.headoffice }}</div>
+          <div class="footer-container__menu-section">
+            {{ page.footer.footerlinks }}
+            {{ page.footer.ourexperience }}
           </div>
         </div>
-        {{ page.footer.footerlinks }}
-        <div class="footer-container__right-section">
-          {{ page.footer.letsstayintouch }}
-          {{ page.footer.ourexperience }}
+        <div class="footer-container__copyright">
+          {{ page.footer.copyright }}
         </div>
       </div>
-
     {{ page.footer|without('footerbranding', 'letsstayintouch', 'headoffice', 'footerlinks', 'ourexperience', 'copyright') }}
     </footer>
   {% endif %}
