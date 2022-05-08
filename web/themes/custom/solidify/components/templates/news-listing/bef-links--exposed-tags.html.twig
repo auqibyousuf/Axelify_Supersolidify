@@ -1,0 +1,10 @@
+{% set classes = ['bef-links', 'exposed-container', 'bef-nested'] %}
+<div{{ attributes.addClass(classes) }}>
+  {% for child in children %}
+    {% set item = attribute(element, child) %}
+    {% if child in selected %}
+      {% set item = item|merge({'#attributes': {'class': 'bef-link-active'}}) %}
+    {% endif %}
+    {% include '@better_exposed_filters/bef-nested-elements.html.twig' %}
+  {% endfor %}
+</div>

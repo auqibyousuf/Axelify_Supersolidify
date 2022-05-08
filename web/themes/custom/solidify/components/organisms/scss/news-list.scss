@@ -14,9 +14,9 @@
 .news-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1440px;
   margin: 0 auto;
+  max-width: 1440px;
+  margin-right: 100px;
 }
 
 .news-list-container {
@@ -90,11 +90,6 @@
 }
 
 .exposed-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 70px;
-  padding: 30px;
   .bef-link--selected {
     border: 1px solid var(--c-text-primary);
     color: var(--c-text-primary);
@@ -104,16 +99,13 @@
   padding-bottom: 70px;
   ul {
     display: flex;
-    li {
-      margin-right: 28px;
-    }
+    justify-content: space-evenly;
   }
   a {
     font-size: 16px;
     color: var(--c-text-gray-light);
     padding: 10px 50px;
     border-radius: 4px;
-    text-align: center;
     &:hover {
       border: 1px solid var(--c-text-primary);
     }
