@@ -1,27 +1,7 @@
 // Define Width utility classes here
 
 @mixin container-boxed {
-  width: 100%;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-
-  @media (min-width: 768px) {
-    width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  @media (min-width: 992px) {
-    width: 900px;
-  }
-
-  @media (min-width: 1300px) {
-    width: 1230px;
-  }
-
-  @media (min-width: 1970px) {
-    width: 1920px;
-  }
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
