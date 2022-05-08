@@ -3,21 +3,14 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-content: center;
   padding: 40px;
   position: absolute;
   z-index: 9;
-  left: 0;
-  right: 0;
-  @include container-boxed;
+  width: 100%;
 }
 
-.hero-background {
-  img {
-    width: 100%;
-  }
-}
 .column-left,
 .column-right {
   display: flex;
@@ -66,12 +59,8 @@
 }
 .hero-container {
   position: absolute;
-  left: 0;
   top: 200px;
-  right: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  @include container-boxed;
+  left: 230px;
 }
 .breadcrumb-container {
   display: flex;

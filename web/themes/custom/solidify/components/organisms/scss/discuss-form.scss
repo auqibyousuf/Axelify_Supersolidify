@@ -35,7 +35,8 @@
 }
 
 .webform-container__discuss-form {
-  float: right;
+  position: absolute;
+  right: 345px;
   background: var(--c-text-white);
   border: 1px solid var(--c-discuss-background);
   box-sizing: border-box;
@@ -51,18 +52,11 @@
   }
 }
 
-.container {
-  @include container-boxed;
-}
-
 .webform-container {
   background-image: url('/themes/custom/solidify/images/discuss-bg.png');
   height: 826px;
   padding: 80px;
   margin-top: 200px;
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .form-wrapper {
