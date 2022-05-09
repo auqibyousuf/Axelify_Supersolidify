@@ -9,7 +9,7 @@ _core:
 id: solidify_local_actions
 theme: solidify
 region: content
-weight: -5
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:

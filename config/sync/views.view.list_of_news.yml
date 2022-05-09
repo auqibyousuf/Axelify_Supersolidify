@@ -82,10 +82,10 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: ' '
+            next: 'Next ›'
             previous: '‹ Previous'
-            first: ' '
-            last: ' '
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -94,7 +94,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          quantity: 5
+          quantity: 9
       exposed_form:
         type: bef
         options:
@@ -262,24 +262,6 @@ display:
     display_title: Block
     display_plugin: block
     position: 1
-    display_options:
-      display_extenders: {  }
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  block_2:
-    id: block_2
-    display_title: 'Block 2'
-    display_plugin: block
-    position: 2
     display_options:
       display_extenders: {  }
     cache_metadata:

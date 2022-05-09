@@ -9,10 +9,8 @@ function solidify_theme_suggestions_breadcrumb_alter(array &$suggestions, array 
   $suggestions[] = "breadcrumb__solidify";
 }
 
-function solidify_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
-  $id = $variables['view']->id();
-  $display = $variables["view"]->current_display;
-  $suggestions[] = "views_view__" . $id . "_" . $display;
+function solidify_theme_suggestions_pager_alter(array &$suggestions, array $variables) {
+  $suggestions[] = "pager__news";
 }
 
 function solidify_theme_suggestions_bef_links_alter(array &$suggestions, array $variables) {
